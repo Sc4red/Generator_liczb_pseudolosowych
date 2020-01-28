@@ -1,0 +1,75 @@
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.exe
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\App.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.cache
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.lref
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.g.resources
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.exe
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Eto.dll
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\Eto.xml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window1.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window1.baml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window2.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window2.baml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window3.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.dll
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Geared.dll
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.pdb
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.xml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\Window3.baml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\FileDialog.baml
+C:\Users\Lenovo\Desktop\Projekt infa\Projekt\Projekt\obj\Debug\FileDialog.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.exe
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Projekt.pdb
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Eto.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Geared.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\Eto.xml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.pdb
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.xml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\FileDialog.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\FileDialog.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window1.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window2.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window3.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\App.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.cache
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.lref
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window1.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window2.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window3.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.g.resources
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.exe
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\MyExcelExport.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\OxyPlot.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window4.g.cs
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\obj\Debug\Window4.baml
+C:\Users\Lenovo\Desktop\Polibuda EiT\Projekt infa\Projekt\Projekt\bin\Debug\MessagingToolkit.QRCode.dll

@@ -1,0 +1,35 @@
+﻿<Window x:Class="Projekt.Window3"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:multipleSeriesTest="clr-namespace:Projekt"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="584.659">
+    <Window.DataContext>
+        <multipleSeriesTest:MultipleSeriesVm></multipleSeriesTest:MultipleSeriesVm>
+    </Window.DataContext>
+    <Grid>
+        <Grid.Resources>
+            <Style TargetType="lvc:Separator">
+                <Setter Property="Stroke" Value="#69000000"></Setter>
+                <Setter Property="StrokeThickness" Value=".8"></Setter>
+                <Setter Property="StrokeDashArray" Value="2"></Setter>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <lvc:CartesianChart Grid.Row="1" 
+                            DisableAnimations="True"
+                            Series="{Binding Series}" 
+                            DataTooltip="{x:Null}"
+                            Zoom="Xy" Margin="0,44,-7,0"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="255" Margin="163,0,0,0">
+            <Button Content="Zapisz serie do pliku" Width="128" Click="Button_Click"/>
+        </Button>
+    </Grid>
+</Window>

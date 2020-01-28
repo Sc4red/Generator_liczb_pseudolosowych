@@ -1,0 +1,76 @@
+﻿<Window x:Class="Projekt.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Window1" Height="518.949" Width="566.761">
+    <Grid>
+        <Canvas RenderTransformOrigin="0.51,0.498" Margin="327,20,49,340">
+
+            <!-- Draws a diagonal line from (10,10) to (50,50). -->
+            <Line
+    X1="10" Y1="10"
+    X2="50" Y2="50"
+    Stroke="Black"
+    StrokeThickness="4" />
+
+            <!-- Draws a diagonal line from (10,10) to (50,50)
+       and moves it 100 pixels to the right. -->
+            <Line
+    X1="10" Y1="10"
+    X2="50" Y2="50"
+    StrokeThickness="4"
+    Canvas.Left="100">
+
+                <Line.Stroke>
+                    <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.5,0.5" RadiusX="0.5" RadiusY="0.5">
+                        <RadialGradientBrush.GradientStops>
+                            <GradientStop Color="Red" Offset="0" />
+                            <GradientStop Color="Blue" Offset="0.25" />
+                        </RadialGradientBrush.GradientStops>
+                    </RadialGradientBrush>
+                </Line.Stroke>
+            </Line>
+
+            <!-- Draws a horizontal line from (10,60) to (150,60). -->
+            <Line
+     X1="10" Y1="60"
+     X2="150" Y2="60"
+     Stroke="Black"
+     StrokeThickness="4" RenderTransformOrigin="0.524,0.431" Height="100" Width="200"/>
+
+        </Canvas>
+
+        <Path Stroke="Black" StrokeThickness="1" Margin="60.511,115.909,271.875,236.932" Stretch="Fill">
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigureCollection>
+                            <PathFigure StartPoint="10,100">
+                                <PathFigure.Segments>
+                                    <PathSegmentCollection>
+                                        <QuadraticBezierSegment Point1="200,200" Point2="300,100" />
+                                    </PathSegmentCollection>
+                                </PathFigure.Segments>
+                            </PathFigure>
+                        </PathFigureCollection>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+        <Ellipse
+Fill="Yellow"
+Height="100"
+Width="200"
+StrokeThickness="2"
+Stroke="Black" Margin="35,351,324,37"/>
+
+        <Path Stroke="DarkGoldenRod" StrokeThickness="3"   
+Data="M 100,200 C 100,25 400,350 400,175 H 280" Margin="277.841,320.454,22.159,67.682" Stretch="Fill" />
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="116,-16,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

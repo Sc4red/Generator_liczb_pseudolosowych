@@ -1,0 +1,82 @@
+﻿<Window x:Class="Projekt.MainWindow"
+        	
+      
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Projekt" Height="770.032" Width="876.935">
+    <Grid Margin="0,0,2,3" RenderTransformOrigin="0.868,0.564">
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="477*"/>
+            <ColumnDefinition Width="71*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="108" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" TextChanged="TextBox_TextChanged" UndoLimit="10000" Grid.ColumnSpan="3"/>
+        <Label Content="Generator liczb pseudolosowych" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="182" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="Generator1TextBoxOd" HorizontalAlignment="Left" Height="25" Margin="49,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" TextChanged="TextBox_TextChanged" UndoLimit="10000" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Generator1TextBoxDo" HorizontalAlignment="Left" Height="25" Margin="49,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" TextChanged="TextBox_TextChanged" UndoLimit="10000" RenderTransformOrigin="0.499,0.483" Grid.ColumnSpan="2"/>
+        <Label Content="Od" HorizontalAlignment="Left" Margin="18,171,0,0" VerticalAlignment="Top" Height="26" Width="26"/>
+        <Label Content="Do" HorizontalAlignment="Left" Margin="18,216,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.876,-1.87" Height="26" Width="25">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.109"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button Content="Wylicz" HorizontalAlignment="Left" Margin="55,266,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.73,-0.29" Click="Button_Click" Height="23" Grid.ColumnSpan="2"/>
+        <Label Content="Generator kodu QR" HorizontalAlignment="Left" Margin="127,10,0,0" VerticalAlignment="Top" Height="26" Width="182" Grid.Column="2"/>
+        <TextBox x:Name="TextBoxLinkQR" HorizontalAlignment="Left" Height="25" Margin="171,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="403" TextChanged="TextBox_TextChanged" UndoLimit="10000" Grid.Column="2" Grid.ColumnSpan="3"/>
+        <Label Content="Link:" HorizontalAlignment="Left" Margin="125,40,0,0" VerticalAlignment="Top" Height="26" Width="46" Grid.Column="2"/>
+        <Button x:Name="ButtonQRGen" Content="Generuj" HorizontalAlignment="Left" Margin="127,83,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.73,-0.29" Height="23" Grid.Column="2" Click="ButtonQRGen_Click">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="ImageQr" Grid.Column="2" Height="247" Margin="207,83,10,0" VerticalAlignment="Top"  Grid.ColumnSpan="2"/>
+        <Button x:Name="WlButton" Content="Włącz" HorizontalAlignment="Left" Margin="55,369,0,0" VerticalAlignment="Top" Width="76" Grid.ColumnSpan="2" Visibility="Hidden" Click="WlButton_Click"/>
+        <Button x:Name="WykButt" Content="WykresButton" HorizontalAlignment="Left" Margin="0,520,0,0" VerticalAlignment="Top" Width="125" Click="WykButt_Click" Grid.Column="2"/>
+        <Button Content="Wylicz" HorizontalAlignment="Left" Margin="55,266,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.73,-0.29" Click="Button_Click" Height="23" Grid.ColumnSpan="2"/>
+        <Button Content="Zapisz QR" Grid.Column="2" HorizontalAlignment="Left" Margin="301,354,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1"/>
+        <Button Content="Wczytaj QR" Grid.Column="2" HorizontalAlignment="Left" Margin="455,354,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_4"/>
+        <Label Content="Generuj serie danych:" HorizontalAlignment="Left" Margin="18,432,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="126"/>
+        <TextBox x:Name="Zakres_od_textbox" HorizontalAlignment="Left" Height="24" Margin="50,499,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="TextBox_TextChanged" UndoLimit="10000" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Zakres_do_textbox" HorizontalAlignment="Left" Height="26" Margin="50,535,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextChanged="TextBox_TextChanged" UndoLimit="10000" RenderTransformOrigin="0.499,0.483" Grid.ColumnSpan="2"/>
+        <Label Content="Od" HorizontalAlignment="Left" Margin="18,499,0,0" VerticalAlignment="Top" Height="26" Width="26"/>
+        <Label Content="Do" HorizontalAlignment="Left" Margin="18,536,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.876,-1.87" Height="26" Width="26">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.109"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Zakres:" HorizontalAlignment="Left" Margin="18,463,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="126"/>
+        <Label Content="Loczba próbek:" HorizontalAlignment="Left" Margin="21,581,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.876,-1.87" Height="26" Width="101" Grid.ColumnSpan="2">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.109"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="Liczba_probek_textbox" HorizontalAlignment="Left" Height="26" Margin="22,616,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" TextChanged="TextBox_TextChanged" UndoLimit="10000" RenderTransformOrigin="0.499,0.483" Grid.ColumnSpan="2" Text="1000"/>
+        <Button x:Name="ButtonOxy" Content="Oxy Wykrres" HorizontalAlignment="Left" Margin="0,571,0,0" VerticalAlignment="Top" Width="125" Grid.Column="2" Click="ButtonOxy_Click"/>
+        <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="364,535,0,0" VerticalAlignment="Top" Width="154" Height="89" Click="Button_Click_3"/>
+        <Button Content="Wczytaj serie" HorizontalAlignment="Left" Margin="10,672,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_2" Grid.Column="2" RenderTransformOrigin="2.567,7.475"/>
+    </Grid>
+</Window>
